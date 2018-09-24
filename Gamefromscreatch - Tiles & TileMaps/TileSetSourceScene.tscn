@@ -1,0 +1,214 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tileset.png" type="Texture" id=1]
+
+[node name="Node" type="Node"]
+
+[node name="Tile 1" type="Sprite" parent="."]
+position = Vector2( 10, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile 1"]
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+physics_material_override = null
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Tile 1/StaticBody2D"]
+build_mode = 0
+polygon = PoolVector2Array( 7.98421, 7.9853, 8.01179, -3.21368, -7.9609, 3.73181, -7.93159, 7.9853 )
+
+[node name="Tile 2" type="Sprite" parent="."]
+position = Vector2( 30, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 3" type="Sprite" parent="."]
+position = Vector2( 10, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 4" type="Sprite" parent="."]
+position = Vector2( 30, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 5" type="Sprite" parent="."]
+position = Vector2( 10, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 96, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 6" type="Sprite" parent="."]
+position = Vector2( 30, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 96, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 7" type="Sprite" parent="."]
+position = Vector2( 60, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 48, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 8" type="Sprite" parent="."]
+position = Vector2( 80, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 80, 48, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 9" type="Sprite" parent="."]
+position = Vector2( 100, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 48, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 10" type="Sprite" parent="."]
+position = Vector2( 120, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 48, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 11" type="Sprite" parent="."]
+position = Vector2( 60, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 12" type="Sprite" parent="."]
+position = Vector2( 80, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 80, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 13" type="Sprite" parent="."]
+position = Vector2( 100, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 14" type="Sprite" parent="."]
+position = Vector2( 120, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 15" type="Sprite" parent="."]
+position = Vector2( 140, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 128, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 16" type="Sprite" parent="."]
+position = Vector2( 160, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 144, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 17" type="Sprite" parent="."]
+position = Vector2( 60, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 18" type="Sprite" parent="."]
+position = Vector2( 80, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 80, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 19" type="Sprite" parent="."]
+position = Vector2( 100, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 20" type="Sprite" parent="."]
+position = Vector2( 120, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 21" type="Sprite" parent="."]
+position = Vector2( 140, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 128, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 22" type="Sprite" parent="."]
+position = Vector2( 160, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 144, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 23" type="Sprite" parent="."]
+position = Vector2( 190, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 176, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 24" type="Sprite" parent="."]
+position = Vector2( 210, 10 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 64, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 25" type="Sprite" parent="."]
+position = Vector2( 190, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 176, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 26" type="Sprite" parent="."]
+position = Vector2( 210, 30 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 80, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 27" type="Sprite" parent="."]
+position = Vector2( 190, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 176, 96, 16, 16 )
+_sections_unfolded = [ "Region" ]
+
+[node name="Tile 28" type="Sprite" parent="."]
+position = Vector2( 210, 50 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 96, 16, 16 )
+_sections_unfolded = [ "Region" ]
+

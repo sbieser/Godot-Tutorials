@@ -1,0 +1,12 @@
+[gd_scene format=2]
+
+[node name="Root" type="Node"]
+
+[node name="Grandparent" type="Node" parent="."]
+
+[node name="Parent" type="Node" parent="Grandparent"]
+
+[node name="Child1" type="Node" parent="Grandparent/Parent"]
+
+[node name="Child2" type="Node" parent="Grandparent/Parent"]
+
