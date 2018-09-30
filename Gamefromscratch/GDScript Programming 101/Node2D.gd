@@ -16,8 +16,8 @@ func _ready():
 	#the _update() function will only be called if you call set_process(true)
 	#set_process(true)
 	
-func _update(): #tutorial had this but this is actually not a function that exists in Node or Node2D 
-	pass
+#func _update(): #tutorial had this but this is actually not a function that exists in Node or Node2D 
+#	pass
 
 func _draw():
 	print("_draw")
