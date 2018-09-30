@@ -19,6 +19,10 @@ config/name="Gamefromscratch - GDSCript Programming 101"
 run/main_scene="res://Scene1.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameGlobals="*res://GameGlobals.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
