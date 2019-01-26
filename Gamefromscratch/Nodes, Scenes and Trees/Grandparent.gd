@@ -3,7 +3,7 @@ extends Node
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	#these are the same
-	#print(get_node("Parent").name)
+	print(get_node("Parent").name)
 	#print($Parent.name) #this is cool shorthand
 	
 	#print($Parent.get_child(0).name) #children of a node are indexed, this will print Child1
