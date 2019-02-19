@@ -5,12 +5,9 @@
 
 [node name="Node" type="Node"]
 script = ExtResource( 1 )
-radius = 2
-myImage = null
 
 [node name="Node2D" type="Node2D" parent="."]
 script = ExtResource( 2 )
-_sections_unfolded = [ "dimensions" ]
 numBoxes = 3
 dimensions = {
 "Height": 50,
